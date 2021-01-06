@@ -1,4 +1,4 @@
-import { Header, Container, Gallery } from '../components/blocks'
+import { Header, Container, Callout, FAQ } from '../components/blocks'
 import { Box, Button } from 'rebass'
 import Photo from '../components/photo'
 
@@ -15,56 +15,102 @@ import Photo from '../components/photo'
       fontWeight: 'bold'
     },
     strong: {
-      color: 'alt'
+      color: 'cool'
     }
   }}>
 
-# Themes
+We've heard you - all the complaints about low-quality online hackathons, weird judging systems, constrictive prizing systems, etc. - the list goes on. That's why at DVHacks III, even though we're going online, we hope to address your concerns and run a hackathon truly catering to the makers.
 
-AngelHacks is dedicated to giving back to the community—and we do that in part by encouraging students to make projects that do exactly that! We'll be giving 3 prizes to each category on top of the general prize -- that means, even if you don't win the overall prize, you can still get a cool award just by winning a category!
+# Prizing
+DVHacks operates off of a slightly different prizing system. Instead of assigning "N" amount of an item for each placing, we've instituted a new system called the **prize pool**
 
-</Container>
+As opposed to traditional systems, we've bought a plethora of different prizes in varying amounts. You'll find that some items are restricted to smaller counts than you're used to, but this was done on purpose - to account for both demand and relative cost.
 
-<Gallery sx={{
-    '> div': {
-        bg: 'muted'
+If you win an award (any award!), each person on your team is entitled to pick **1 item** from the pool - regardless of the cost. If it's still available, you're welcome to claim it. This way, you don't need to aim for a specific place or cater your project to a certain audience - we want to see just how good of a maker you are, not how good you are at marketing. Make the best project you can, and you'll get your pick out of our selection of goodies.
+
+Wait - what are the prizes? Without further ado, here is the pool in all its glory.
+
+Disclaimer: The prizes aren't listed in any specific order. Furthermore, as the event nears, we may substitute items based on availability/budget.
+
+<Callout
+  sx={{
+    li: {
+      fontSize: 2,
     },
+    strong: {
+      color: 'cool'
+    }
 }}>
 
-<Box variant="card">
+* 2x Sony WH-1000XM4 Headphones
+* 4x Airpods Pro
+* 2x Switch Lite
+* 4x Wacom Wireless Drawing Tablet + Clip Studio Paint Pro License
+* 2x Ultimate Ears Boom 3 Wireless Speaker
+* 4x Ducky One 2 RGB TKL Keyboard (your choice of keyswitch)
+* 2x Instax Package (Printer, Film)
+* 4x Raspberry Pi Package (Canakit 8GB Pro Variant, starter pack of parts)
+* 2x Official Arduino Starter Kit
+* 6x "Participant's Choice" of:
+    * 7 months Discord Nitro
+    * $75 gift card of your choice (amount is flexible based on circumstances)
 
-## Environment
+</Callout>
 
-Make something that helps the environment. It may seem like a hard thing, but remember, the small things count! Ship projects that count someone's carbon emissions, or tell you the truth about each state's pollution regulations. Be creative -- what does the environment mean to you? It doesn't have to be just the greenery, it could be how other people interact, or how the people around you behave.
+And to sweeten the deal, anyone that places in the top 3 will walk out with a cash prize along with their pick from the pool - amounts are detailed on the front page. This means that we've put up roughly $6000 worth of prizing up for grabs from our end - one of the highest prizing brackets offered in an online hackathon recently.
 
-</Box>
+On the off chance that you don't want to pick anything from the pool when it's your turn, we offer a backup - a $60 gift card at a service of your choice. We've intentionally reduced the value of the backup so that it truly is a backup - only indulge in this option if you truly don't want anything else in the pool.
 
-<Box variant="card">
+But in what order do winners pick prizes? We've tried to make this process as merit-based as possible, which is why we've created a "hierarchy" of awards to determine what order prizes are chosen in.
 
-## Education
+<Callout
+  sx={{
+    li: {
+      fontSize: 2,
+    },
+    strong: {
+      color: 'cool'
+    }
+}}>
 
-A major goal of AngelHacks is to improve education—especially in computer science. Your project can help achieve this goal! Make a project that encourages students to make a mini-site, help teachers grade homework, create an online notes sharing pod, and more! We want you make a feasible project that can have a real impact on the community and beyond.
+1-3: General Winners (1st, 2nd, 3rd Place)
 
-</Box>
+4-6: Technical Winners - order will be determined based on rubric scores. In the event of a tie, a coin will be flipped.
+* Best Mobile Application
+* Best Web Application
+* Best Hardware Hack
 
-</Gallery>
-<Container width="narrow"
-    sx={{
-        h1: {
-            fontWeight:"bold"
-        }
-    }}>
+7: Best Social Good Hack
 
-# We’re driven by a mission.
+8: Best Beginner Hack - eligibility will be determined at the judges' discretion.
 
-AngelHacks is dedicated in encourage students to learn computer science—at just the age where they're interested in technology and programming.
+</Callout>
 
-100+ students of all skill levels will assemble for a weekend of collaboration and innovation, each building apps/websites/games that give back to the community in 12 hours. Then participants and judges will select the winning projects and teams.
+As you can see, there's pretty much no benefit from catering your project to a certain platform or cause - in fact it might actually work against you! So put all your qualms aside, and just make the best project you can.
 
-# Coding is a superpower.
+# Judging Regulations
 
-Starting to code has a lasting impact. Once you begin coding, you switch from being a consumer to being a creator. We want to make everyone a creator—it’s a magical transformation. You can solve problems your way, bounded only by your imagination.
+We've noticed that the number of people that cheat or "bend the rules" at hackathons has been significantly higher at online hackathons - and that number rises progressively. As such, we've tried to implement some measures that we hope will deter cheating and allow us all to have a more enjoyable and fair competition. With this much on the line, we're sure that you feel the same.
 
-We know this because we’re the leaders of the [Hack Club](https://hackclub.com/) at Ad Astra School, where we have good infrastructure for students to learn to code. Now, we want to bring that experience to everyone. This is a hackathon by the students, for the students, and for the future of all of Los Angeles.
+### GitHub
 
+In order to ensure that your project was actually constructed during the time frame of the hackathon itself, we *require* periodic GitHub commits. The recommended interval is **1 hour** in between commits - as long as we can see that you were genuinely making progress during the event (developing code, improving on your code, debugging, etc.), we will assume that you followed the Code of Conduct.
+
+If you are making a hardware project, we humbly request that you **take pictures** while you're making it, and include it in the GitHub repo! That way we can see that you developed your hardware within the timeframe, and you'll have some memories to look back on :) In the event that you *can't* submit pictures of your hardware, it's fine - we'll be more scrutinous of your code though.
+
+As it is with most of our rules, we're willing to make exceptions *if the situation calls for it*. In the event that you have an unusually long gap in between your commits, contact an organizer ASAP and explain your situation, and we'll determine whether or not your situation merits an exception. But we cannot stress this enough - **unless excused, any submissions without proper GitHub commit histories will be disqualified during the judging period**.
+
+### Hunger Games
+
+Even with our GitHub measures, there's only so much that the organizing team can do to spot-check all the teams, entries, and projects involved in the competition. As such, we'll be recycling a system introduced by previous online hackathons - **hunger games**.
+
+The hunger games system essentially dictates that we release a spreadsheet containing the **devpost and GitHub URLs** for each and every project submitted to the competition at least **1.5 hours** before judging is complete and the closing ceremony begins. The entire point of this phase? **Verification.**
+
+The fact is, we don't have enough people on the staff to efficiently sweep through all the submissions and ensure that they're all legitimate. So instead, we'll hand off that duty to you, the participants (yes, we're truly that lazy). By reporting any people that violate the code of conduct to us and effectively weeding out cheaters, you essentially increase the chances that you win, and that the winner is rightfully crowned.
+
+There aren't really any parameters to hunger games. Just report as many cheaters as you can, and we'll make it that much more likely that you win. Help us help you!
+
+## So In Conclusion...
+
+That's pretty much everything you need to know about our quirks. We've tried to do as much as we can to make DVHacks the most seamless, accommodating online hackathon it can be (even though "accommodating" and "online" don't normally go together). If you have any further inquiries, feel free to send [Pradyun](mailto:pradyun@dvhacks.tech) an email. We can't wait to see you guys compete!
 </Container>

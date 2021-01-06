@@ -25,6 +25,7 @@ export const palette = {
   alt: '#13cfbf',
   altDark: '#05386b',
   altLight: '#6ed5fa',
+  cool: '#8baa8c',
   coolWash: '#8baa8c',
 }
 
