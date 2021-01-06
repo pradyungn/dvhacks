@@ -131,7 +131,7 @@ export default props => {
             }}
           >
             <Text sx={{ fontFamily: 'heading', fontSize: 0, color: 'inherit' }}>
-              Special thanks to the ever-talented <A href="https://github.com/lachlanjc" title="lachlan :)">@lachlanjc</A> :D
+              DVHacks 2020
             </Text>
             <Text
               sx={{
