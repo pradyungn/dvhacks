@@ -9,7 +9,7 @@ const data = {
   sponsors: [
     {
       name: 'Guidewire',
-      link: 'https://repl.it',
+      link: 'https://www.guidewire.com',
       image:
         'https://www.guidewire.com/sites/all/themes/guidewire/assets/images/logos/guidewire_logo.svg'
     },
