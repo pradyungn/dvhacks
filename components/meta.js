@@ -8,6 +8,7 @@ export default ({
 }) => (
   <Head>
     <title>{title}</title>
+    <link rel="shortcut icon" href="/static/logo.png"/>
     <meta property="og:title" content={title} />
     <meta name="twitter:title" content={title} />
     <meta name="og:url" content={url} />

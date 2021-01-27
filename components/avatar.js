@@ -8,12 +8,9 @@ export default ({ size = 50, light = false, ...props }) => (
         {...props}
         src="/static/logo.png"
         alt="DVHacks avatar"
-        width={size}
-        height={size}
+        height={30}
         sx={{
-          borderRadius: 'circle',
           overflow: 'hidden',
-          bg: 'primary',
           ...props.sx
         }}
       />
