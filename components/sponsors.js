@@ -11,7 +11,7 @@ const data = {
       name: 'Guidewire',
       link: 'https://www.guidewire.com',
       image:
-        'https://www.guidewire.com/sites/all/themes/guidewire/assets/images/logos/guidewire_logo.svg'
+        './static/guidewire.png'
     },
     {
       name: 'Hack Club Bank',
