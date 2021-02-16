@@ -72,9 +72,7 @@ export default props => {
         <Link href="/register">
           <A variant="styles.navitem">Register</A>
         </Link>
-        <a href="https://dvhacks-iii.devpost.com">
-          <A variant="styles.navitem">Devpost</A>
-        </a>
+        <A variant="styles.navitem" href="https://dvhacks-iii.devpost.com">Devpost</A>
         <Link href="/about">
           <A variant="styles.navitem">About</A>
         </Link>
